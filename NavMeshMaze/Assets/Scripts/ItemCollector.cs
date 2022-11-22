@@ -26,6 +26,18 @@ public class ItemCollector : MonoBehaviour
             Destroy(other.gameObject);
             StartCoroutine(OpenGreen());
         }
+
+        if (other.gameObject.tag == "BlueKey")
+        {
+            Destroy(other.gameObject);
+            StartCoroutine(OpenBlue());
+        }
+
+        if (other.gameObject.tag == "RedKey")
+        {
+            Destroy(other.gameObject);
+            StartCoroutine(OpenRed());
+        }
     }
 
     IEnumerator OpenGreen()
@@ -50,7 +62,7 @@ public class ItemCollector : MonoBehaviour
         alertText.text = "";
     }
 
-    IEnumerator OpenPink()
+    IEnumerator OpenRed()
     {
         redGate.SetActive(false);
 

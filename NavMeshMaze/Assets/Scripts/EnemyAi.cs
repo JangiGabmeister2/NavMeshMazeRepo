@@ -8,14 +8,18 @@ public class EnemyAi : MonoBehaviour
 {
     [SerializeField] GameObject _player; //the player game object
     [SerializeField] Transform[] _waypoints; //an array of waypoints the ai will follow
-    float _speed = 10f; //the speed at which the ai will move
+    float _speed = 7.5f; //the speed at which the ai will move
     int _waypointIndex = 0; //which waypoint it is going to currently
+
+    [SerializeField] private Animator animator;
 
     public MoveState moveState;
 
     private void Start()
     {
         NextState();
+
+        animator = GetComponent<Animator>();
     }
 
     private void NextState()
@@ -44,9 +48,15 @@ public class EnemyAi : MonoBehaviour
 
             if (Vector3.Distance(transform.position, waypointPosition) < 0.5f)
             {
+                animator.SetBool("isMoving", false);
+
                 yield return new WaitForSeconds(1f);
 
                 _waypointIndex++;
+            }
+            else
+            {
+                animator.SetBool("isMoving", true);
             }
 
             if (_waypointIndex == _waypoints.Length)
@@ -58,6 +68,8 @@ public class EnemyAi : MonoBehaviour
 
             if (IsPlayerInRange())
             {
+                animator.SetBool("isMoving", true);
+
                 moveState = MoveState.Chase;
             }
 
@@ -73,6 +85,10 @@ public class EnemyAi : MonoBehaviour
             ChasePlayer();
             if (!IsPlayerInRange())
             {
+                animator.SetBool("isMoving", false);
+
+                yield return new WaitForSeconds(1f);
+
                 moveState = MoveState.Patrol;
             }
             yield return null;
@@ -107,6 +123,11 @@ public class EnemyAi : MonoBehaviour
         directionToPlayer.Normalize();
         directionToPlayer *= _speed * Time.deltaTime;
         transform.position += directionToPlayer;
+
+        if (directionToPlayer != Vector3.zero)
+        {
+            transform.forward = directionToPlayer;
+        }
     }
     public void Search()
     {

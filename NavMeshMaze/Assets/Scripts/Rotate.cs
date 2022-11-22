@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
+    [SerializeField] float _rotX;
+    [SerializeField] float _rotY;
+    [SerializeField] float _rotZ;
+
     private void Update()
     {
-        transform.Rotate(360f * 0.5f * Time.deltaTime, 0f, 0f);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-
-        }
+        transform.Rotate(_rotX * 0.5f * Time.deltaTime, _rotY * 0.5f * Time.deltaTime, _rotZ * 0.5f * Time.deltaTime);
     }
 }
