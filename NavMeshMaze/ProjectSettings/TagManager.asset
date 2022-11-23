@@ -10,6 +10,7 @@ TagManager:
   - MovingPlatform
   - TallGrass
   - RedKey
+  - BlueKey
   layers:
   - Default
   - TransparentFX
