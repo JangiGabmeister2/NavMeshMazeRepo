@@ -7,10 +7,16 @@ public class ItemCollector : MonoBehaviour
 {
     public Text coinsText;
     public Text alertText;
+    public Text goldGateText;
 
-    public GameObject greenGate, blueGate, redGate;
+    public GameObject greenGate, blueGate, redGate, goldGate;
 
     private int coinsCollected = 0;
+
+    private void Start()
+    {
+        coinsText.text = $"Coins Collected: {coinsCollected}";
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -19,6 +25,11 @@ public class ItemCollector : MonoBehaviour
             Destroy(other.gameObject);
             coinsCollected++;
             coinsText.text = $"Coins Collected: {coinsCollected}";
+
+            if (coinsCollected == 30)
+            {
+                StartCoroutine(OpenGold());
+            }
         }
 
         if (other.gameObject.tag == "GreenKey")
@@ -65,8 +76,20 @@ public class ItemCollector : MonoBehaviour
     IEnumerator OpenRed()
     {
         redGate.SetActive(false);
+        goldGateText.text = "Collect 30 coins to\nopen the Gold Gate";
 
         alertText.text = "The <color=red>Red Gate</color> has been opened!";
+
+        yield return new WaitForSeconds(5f);
+
+        alertText.text = "";
+    }
+
+    IEnumerator OpenGold()
+    {
+        goldGate.SetActive(false);
+
+        alertText.text = "The <color=yellow>Gold Gate</color> has been opened!";
 
         yield return new WaitForSeconds(5f);
 

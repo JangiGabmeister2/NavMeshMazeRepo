@@ -33,13 +33,13 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (!(_agent.remainingDistance > _agent.stoppingDistance))
+        if (_agent.remainingDistance >= _agent.stoppingDistance)
         {
-            animator.SetBool("isMoving", false);
+            animator.SetBool("isMoving", true);
         }
         else
         {
-            animator.SetBool("isMoving", true);
+            animator.SetBool("isMoving", false);
         }
     }
 
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Die();
+            //Die();
         }
     }
 

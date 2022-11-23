@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public enum MoveState { Patrol, Chase }
 
@@ -8,8 +9,11 @@ public class EnemyAi : MonoBehaviour
 {
     [SerializeField] GameObject _player; //the player game object
     [SerializeField] Transform[] _waypoints; //an array of waypoints the ai will follow
-    float _speed = 7.5f; //the speed at which the ai will move
+    float _speed = 7f; //the speed at which the ai will move
     int _waypointIndex = 0; //which waypoint it is going to currently
+    bool moving = false;
+
+    NavMeshAgent _agent;
 
     [SerializeField] private Animator animator;
 
@@ -17,9 +21,22 @@ public class EnemyAi : MonoBehaviour
 
     private void Start()
     {
-        NextState();
-
         animator = GetComponent<Animator>();
+        _agent = GetComponent<NavMeshAgent>();
+
+        NextState();
+    }
+
+    private void Update()
+    {
+        if (moving)
+        {
+            animator.SetBool("isMoving", moving);
+        }
+        else
+        {
+            animator.SetBool("isMoving", moving);
+        }
     }
 
     private void NextState()
@@ -44,11 +61,11 @@ public class EnemyAi : MonoBehaviour
         {
             #region Patrol
             Vector3 waypointPosition = _waypoints[_waypointIndex].position;
-            MovetoPoint(waypointPosition);
+            _agent.SetDestination(waypointPosition);
 
             if (Vector3.Distance(transform.position, waypointPosition) < 0.5f)
             {
-                animator.SetBool("isMoving", false);
+                moving = false;
 
                 yield return new WaitForSeconds(1f);
 
@@ -56,7 +73,7 @@ public class EnemyAi : MonoBehaviour
             }
             else
             {
-                animator.SetBool("isMoving", true);
+                moving = true;
             }
 
             if (_waypointIndex == _waypoints.Length)
@@ -68,7 +85,7 @@ public class EnemyAi : MonoBehaviour
 
             if (IsPlayerInRange())
             {
-                animator.SetBool("isMoving", true);
+                moving = true;
 
                 moveState = MoveState.Chase;
             }
@@ -85,7 +102,7 @@ public class EnemyAi : MonoBehaviour
             ChasePlayer();
             if (!IsPlayerInRange())
             {
-                animator.SetBool("isMoving", false);
+                moving = false;
 
                 yield return new WaitForSeconds(1f);
 
@@ -98,7 +115,7 @@ public class EnemyAi : MonoBehaviour
 
     public bool IsPlayerInRange()
     {
-        if (Vector3.Distance(transform.position, _player.transform.position) < 5f)
+        if (Vector3.Distance(transform.position, _player.transform.position) < 7f)
         {
             return true;
         }
@@ -112,23 +129,23 @@ public class EnemyAi : MonoBehaviour
     {
         if (IsPlayerInRange())
         {
-            MovetoPoint(_player.transform.position);
+            _agent.SetDestination(_player.transform.position);
         }
     }
 
-    void MovetoPoint(Vector3 point)
-    {
-        Vector3 directionToPlayer = point - transform.position;
+    //void MovetoPoint(Vector3 point)
+    //{
+    //    Vector3 directionToPlayer = point - transform.position;
 
-        directionToPlayer.Normalize();
-        directionToPlayer *= _speed * Time.deltaTime;
-        transform.position += directionToPlayer;
+    //    directionToPlayer.Normalize();
+    //    directionToPlayer *= _speed * Time.deltaTime;
+    //    transform.position += directionToPlayer;
 
-        if (directionToPlayer != Vector3.zero)
-        {
-            transform.forward = directionToPlayer;
-        }
-    }
+    //    if (directionToPlayer != Vector3.zero)
+    //    {
+    //        transform.forward = directionToPlayer;
+    //    }
+    //}
     public void Search()
     {
         int closestIndex = -1;

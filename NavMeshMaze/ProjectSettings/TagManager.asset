@@ -8,6 +8,8 @@ TagManager:
   - Coin
   - GreenKey
   - MovingPlatform
+  - TallGrass
+  - RedKey
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Enemy
   - Collectible
   - Moving Platform
-  - 
+  - MovementModifier
   - 
   - 
   - 
