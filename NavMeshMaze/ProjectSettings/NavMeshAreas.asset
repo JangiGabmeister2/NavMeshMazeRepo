@@ -13,7 +13,7 @@ NavMeshProjectSettings:
     cost: 2
   - name: TallGrass
     cost: 10
-  - name: 
+  - name: MovingPlatform
     cost: 1
   - name: 
     cost: 1
@@ -73,7 +73,7 @@ NavMeshProjectSettings:
   m_Settings:
   - serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 2
+    agentRadius: 1
     agentHeight: 2
     agentSlope: 35
     agentClimb: 0.75

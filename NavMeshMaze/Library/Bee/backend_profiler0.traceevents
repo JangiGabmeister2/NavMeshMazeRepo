@@ -1,69 +1,669 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1669211016528650, "dur":8147, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016536812, "dur":14418, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1669211016551478, "dur":96, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1669211016551577, "dur":874, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1669211016552506, "dur":12390, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016564897, "dur":8, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016571448, "dur":2573, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574022, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574062, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574078, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574110, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574114, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574137, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574143, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016574165, "dur":1135, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575301, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575325, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575331, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575343, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575347, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575362, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575367, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575386, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575391, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575408, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575415, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575428, "dur":118, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575546, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575567, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575572, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575591, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575593, "dur":189, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016575836, "dur":3093, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1669211016553058, "dur":12005, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669211016565068, "dur":5275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669211016570344, "dur":3549, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669211016552824, "dur":12128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669211016564956, "dur":6484, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669211016552872, "dur":12124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669211016565001, "dur":5158, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669211016570160, "dur":3571, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669211016552927, "dur":12081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669211016565011, "dur":5792, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669211016570804, "dur":2244, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1669211016553001, "dur":12047, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1669211016565053, "dur":4390, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1669211016569443, "dur":5740, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1669211016553180, "dur":11896, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1669211016565080, "dur":8486, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1669211016553237, "dur":11857, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1669211016565098, "dur":5182, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1669211016570281, "dur":2621, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1669211016553367, "dur":11741, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1669211016565112, "dur":9052, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1669211016553429, "dur":11693, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1669211016565126, "dur":5798, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1669211016570925, "dur":2592, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1669211016553524, "dur":11612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1669211016565140, "dur":5921, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1669211016571061, "dur":3061, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1669211016553580, "dur":11568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1669211016565152, "dur":2379, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1669211016567531, "dur":5790, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1669211016553627, "dur":11534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1669211016565161, "dur":3337, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1669211016568499, "dur":6361, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669211016582186, "dur":824, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1669258353639911, "dur":1739, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258353641662, "dur":196, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669258353641879, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669258353641907, "dur":1009, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669258353643029, "dur":1047, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258353644076, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890021, "dur":164, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890185, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890200, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890205, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890214, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890218, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890227, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890231, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890239, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890243, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890251, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890255, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890263, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890267, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890275, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890279, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890289, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890306, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354890323, "dur":2394, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669258353643006, "dur":1104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353644127, "dur":6079, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353650241, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669258353650243, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353650338, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669258353650341, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353650423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353651327, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669258353654569, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669258353654687, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353654739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353655085, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669258353656989, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669258353657073, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353657117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353657128, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669258353658155, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353658273, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353658318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353658380, "dur":8491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353666920, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353666975, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353667018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353667027, "dur":55411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353722484, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353722531, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353722576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353722608, "dur":52464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353775118, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353775162, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353775206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353775215, "dur":42791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353818055, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353818104, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353818150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353818160, "dur":70763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353888969, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353889015, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353889061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353889072, "dur":71588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353960707, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353960752, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353960824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353960834, "dur":34200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353995081, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258353995125, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353995260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258353995268, "dur":26765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354022077, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354022127, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354022172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354022182, "dur":25367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354047595, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354047644, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354047709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354047719, "dur":26545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354074311, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354074362, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354074407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354074416, "dur":23670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354098131, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354098173, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354098225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354098234, "dur":134575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354232855, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354233695, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354233749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354233760, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354234938, "dur":30308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354265246, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354265301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354265310, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354266686, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354266735, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354266789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354266799, "dur":115155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354382000, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354382042, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354382085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354382094, "dur":81987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354464127, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354464165, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354464215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354464249, "dur":176334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354640626, "dur":141249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354781876, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354781941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669258354781948, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669258354782970, "dur":107055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353644033, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353644304, "dur":5940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353650247, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669258353650385, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353650451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353653285, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669258353654800, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669258353654895, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353654951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353655483, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669258353657042, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1669258353657129, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353657170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353657178, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1669258353659212, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze.exe" }}
+,{ "pid":12345, "tid":2, "ts":1669258353659261, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353659328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353659335, "dur":59396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze.exe" }}
+,{ "pid":12345, "tid":2, "ts":1669258353718773, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258353718828, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353718873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353718883, "dur":222669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258353941597, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258353941648, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353941694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353941704, "dur":23243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258353964997, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258353965050, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353965096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353965106, "dur":29862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258353995018, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258353995065, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353995108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258353995117, "dur":27006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354022171, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354022219, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354022260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354022268, "dur":25963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354048274, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354048975, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354049037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354049048, "dur":113136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354162227, "dur":784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354163011, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354163061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354163071, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354164204, "dur":57029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354221234, "dur":2552, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354223795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354223806, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354225182, "dur":1376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354226558, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354227116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354227126, "dur":5689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354232865, "dur":37966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354270831, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354270905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354270915, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354272074, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354272104, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354272137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354272143, "dur":249408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354521593, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354521636, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354521677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354521686, "dur":115806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354637539, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354637579, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354637657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669258354637669, "dur":192342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669258354830042, "dur":59981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353643225, "dur":936, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353644162, "dur":6054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353650240, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669258353650396, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353650485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353685320, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669258353686480, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258353686532, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353686573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353686582, "dur":62191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258353748820, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258353748865, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353748910, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353748917, "dur":54508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258353803477, "dur":172830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258353976308, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353976359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353976371, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258353977611, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258353977696, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353977750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258353977758, "dur":72859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354050665, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354050712, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354050758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354050767, "dur":23559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354074372, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354074416, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354074462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354074470, "dur":45803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354120318, "dur":78639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354198958, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354199019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354199030, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354200068, "dur":23980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354224049, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354224094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354224103, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354225206, "dur":835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354226042, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354226102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354226111, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354230299, "dur":1894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354232194, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354232251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354232261, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354233523, "dur":61317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354294841, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354294907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354294917, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354296068, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354296112, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354296155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354296164, "dur":100664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354396874, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354396918, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354396962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354396972, "dur":101392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354498407, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354498455, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354498499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354498509, "dur":48604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354547158, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354547201, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354547268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354547278, "dur":128184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669258354675509, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1669258354675571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669258354675580, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1669258354676966, "dur":213052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353643387, "dur":798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353644185, "dur":6030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353650241, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669258353650365, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353650446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353653114, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669258353654635, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669258353654735, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353654787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353655082, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669258353656807, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669258353656908, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353656942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353656954, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669258353658655, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353658739, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353658779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353658787, "dur":20527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353679361, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353679406, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353679448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353679457, "dur":67046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353746554, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353746607, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353746650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353746659, "dur":28483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353775187, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353775238, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353775286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353775294, "dur":49853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353825198, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353825242, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353825289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353825297, "dur":151284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353976627, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258353976671, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353976950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258353976959, "dur":27577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354004579, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354004619, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354004683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354004693, "dur":37723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354042464, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354042511, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354042559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354042569, "dur":32081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354074692, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354074734, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354074777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354074785, "dur":60310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354135141, "dur":93725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354228866, "dur":1184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354230057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354230067, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354232271, "dur":31131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354263402, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354263477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354263487, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354264832, "dur":90615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354355448, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354355521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354355531, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354356703, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354356747, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354356791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354356800, "dur":169195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354526038, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354526080, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354526126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354526135, "dur":107419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354633603, "dur":41433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354675037, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354675106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354675119, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669258354676267, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669258354676330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669258354676340, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669258354677583, "dur":212433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353643592, "dur":617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353644209, "dur":6044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353650256, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669258353650393, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353650472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353653749, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669258353655153, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669258353655253, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353655302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353655399, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669258353656806, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669258353656901, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353656942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353656954, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669258353659122, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1669258353659295, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353659341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353659349, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1669258353662050, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353662158, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353662219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353662272, "dur":53603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353715922, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353715972, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353716016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353716026, "dur":32389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353748466, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353748518, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353748694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353748704, "dur":55097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353803845, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353803892, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353803937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353803946, "dur":28256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353832247, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353832290, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353832335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353832345, "dur":112785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353945175, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353945216, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353945254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353945285, "dur":30130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353975462, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258353975503, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353975546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258353975555, "dur":62318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354037918, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354037960, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354038007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354038017, "dur":67603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354105664, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354105708, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354105752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354105761, "dur":46786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354152593, "dur":72159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354224752, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354224806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354224815, "dur":5023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354229886, "dur":31965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354261852, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354261918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354261928, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354263167, "dur":75345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354338513, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354338584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354338595, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354339712, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354339753, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354339795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354339803, "dur":180594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354520439, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354520480, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354520524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354520534, "dur":140959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669258354661538, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1669258354661682, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354661735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354662156, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1669258354663188, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669258354663256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354663287, "dur":13488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669258354676821, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1669258354676969, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354677012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669258354677020, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1669258354678054, "dur":211963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353643646, "dur":604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353644250, "dur":6108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353650358, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1669258353650458, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353650494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353687505, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1669258353688522, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353688571, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353688610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353688686, "dur":33821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353722554, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353722599, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353722643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353722651, "dur":38937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353761635, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353761676, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353761718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353761727, "dur":147120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353908891, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353908937, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353909004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353909014, "dur":57168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353966231, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258353966284, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353966330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258353966339, "dur":46099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354012485, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354012529, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354012572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354012582, "dur":140014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354152640, "dur":227777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354380417, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354380489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354380499, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354382010, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354382051, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354382093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354382101, "dur":39411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354421557, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354421598, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354421644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354421654, "dur":34578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354456280, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354456325, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354456372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354456381, "dur":205855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669258354662280, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669258354662338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354662398, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669258354663779, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669258354663828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354663837, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669258354667993, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1669258354668145, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354668189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354668199, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1669258354669231, "dur":925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1669258354670156, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354670216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354670227, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1669258354671321, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669258354671369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354671378, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669258354673377, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669258354673445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354673454, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669258354674623, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669258354674671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354674681, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669258354675949, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669258354675999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669258354676006, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669258354677299, "dur":212719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353643790, "dur":503, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353644293, "dur":5943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353650241, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669258353650345, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353650428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353652479, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669258353654798, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669258353654892, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353654942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353655144, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669258353656887, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669258353656969, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353657010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353657020, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669258353659389, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353659450, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353659508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353660986, "dur":101370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353762398, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353762445, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353762487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353762496, "dur":26368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353788913, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353788959, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353789006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353789016, "dur":144795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353933856, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353933966, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353934024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353934034, "dur":21227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353955308, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353955354, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353955399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353955408, "dur":26036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353981516, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258353981560, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353981613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258353981623, "dur":37181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354018847, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354018896, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354018941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354018951, "dur":24752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354043752, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354043796, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354043844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354043854, "dur":37320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354081224, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354081273, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354081316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354081326, "dur":27076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354108449, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354108499, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354108546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354108556, "dur":29553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354138159, "dur":76972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354215132, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354215211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354215223, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354216700, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354217610, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354217673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354217683, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354218867, "dur":53896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354272763, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354272809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354272815, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354273810, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354273856, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354273902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354273910, "dur":95350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354369305, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354369346, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354369389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354369398, "dur":84085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354453530, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354453574, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354453620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354453629, "dur":180306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354633978, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354634019, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354634062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669258354634072, "dur":255849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669258354889995, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1669258354889996, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353643914, "dur":385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353644299, "dur":5916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353650241, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1669258353650358, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353650426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353653096, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1669258353654750, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669258353654844, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353655059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353655214, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669258353657107, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353657195, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353657249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353657468, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353659381, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1669258353659464, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353659514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353660659, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1669258353666572, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353666638, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353666716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353666729, "dur":44409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353711185, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353711236, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353711283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353711292, "dur":38438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353749778, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353749827, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353749893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353749902, "dur":66160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353816109, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353816158, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353816207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353816217, "dur":44890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353861158, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353861212, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353861259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353861269, "dur":49861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353911176, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353911224, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353911267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353911276, "dur":34916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353946236, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353946278, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353946320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353946328, "dur":47757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353994133, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258353994177, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353994301, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258353994315, "dur":30419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354024783, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354024829, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354024879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354024889, "dur":23181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354048117, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354048162, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354048205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354048213, "dur":21372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354069635, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354069686, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354069734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354069767, "dur":21445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354091257, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354091298, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354091362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354091372, "dur":47213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354138631, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354138676, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354138722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354138731, "dur":61234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354200363, "dur":58410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354258773, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354258845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354258856, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354260034, "dur":290789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354550824, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354550898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354550909, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354552273, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354552313, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354552355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354552364, "dur":39398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354591804, "dur":49021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354640825, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354640877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354640887, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354641959, "dur":45188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354687155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669258354687167, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669258354688332, "dur":201692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669258354894908, "dur":2547, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

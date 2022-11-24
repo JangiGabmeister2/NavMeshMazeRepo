@@ -9,15 +9,14 @@ public class EnemyAi : MonoBehaviour
 {
     [SerializeField] GameObject _player; //the player game object
     [SerializeField] Transform[] _waypoints; //an array of waypoints the ai will follow
-    float _speed = 7f; //the speed at which the ai will move
     int _waypointIndex = 0; //which waypoint it is going to currently
-    bool moving = false;
+    bool moving = false; //checks if agent is moving
 
-    NavMeshAgent _agent;
+    NavMeshAgent _agent; //the navmesh agent
 
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator animator; //animator controller to activate movement and idle animations
 
-    public MoveState moveState;
+    public MoveState moveState; //switches from patrolling and chasing states depending on player distance from enemy
 
     private void Start()
     {
@@ -29,17 +28,17 @@ public class EnemyAi : MonoBehaviour
 
     private void Update()
     {
-        if (moving)
+        if (moving) //if enemy is moving
         {
-            animator.SetBool("isMoving", moving);
+            animator.SetBool("isMoving", moving); //if true, switches to movement animation
         }
         else
         {
-            animator.SetBool("isMoving", moving);
+            animator.SetBool("isMoving", moving); //if false, switches to idle animation
         }
     }
 
-    private void NextState()
+    private void NextState() //switches movement states
     {
         switch (moveState)
         {
@@ -56,111 +55,97 @@ public class EnemyAi : MonoBehaviour
 
     IEnumerator PatrolState()
     {
-        Search();
+        Search(); //searches for the closest waypoint, rather than the last one it followed
         while (moveState == MoveState.Patrol)
         {
             #region Patrol
-            Vector3 waypointPosition = _waypoints[_waypointIndex].position;
-            _agent.SetDestination(waypointPosition);
+            Vector3 waypointPosition = _waypoints[_waypointIndex].position; //sets a vector3 position based on the position of the currently selected waypoint
+            _agent.SetDestination(waypointPosition); //sets the destination of the navmesh agent as the above position
 
-            if (Vector3.Distance(transform.position, waypointPosition) < 0.5f)
+            if (Vector3.Distance(transform.position, waypointPosition) < 0.5f) //checks if the agent is close to the waypoint position
             {
-                moving = false;
+                moving = false; //sets animation to idle
 
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(1f); //waits a second
 
-                _waypointIndex++;
+                _waypointIndex++; //increases waypoint array index, which makes the agent move to next waypoint
             }
             else
             {
-                moving = true;
+                moving = true; //if agent is not close enough to waypoint position, continues movement animation
             }
 
-            if (_waypointIndex == _waypoints.Length)
+            if (_waypointIndex == _waypoints.Length) //if waypoint index is at the end of the waypoint array
             {
-                System.Array.Reverse(_waypoints);
-                _waypointIndex = 0;
+                System.Array.Reverse(_waypoints); //reverses the order of the array, so last item is now first item, and previously first item is now last item
+                _waypointIndex = 0; //sets the waypoint index to the first item ie next waypoint is now current waypoint
             }
             #endregion
 
-            if (IsPlayerInRange())
+            if (IsPlayerInRange()) //checks if player is within range
             {
-                moving = true;
+                moving = true; //if true, animation changes to running animation, if not already
 
-                moveState = MoveState.Chase;
+                moveState = MoveState.Chase; //changes movement state to chase state
             }
 
-            yield return null; //wait a single frame
+            yield return null;
         }
-        NextState();
+        NextState(); //changes move state if it has changed
     }
 
     IEnumerator ChaseState()
     {
-        while (moveState == MoveState.Chase)
+        while (moveState == MoveState.Chase) //checks if move state is chase state
         {
-            ChasePlayer();
-            if (!IsPlayerInRange())
+            ChasePlayer(); //chases the player
+            if (!IsPlayerInRange()) //checks if player is no longer in range
             {
-                moving = false;
+                moving = false; //animation switches to idle state
 
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(1f); //waits one second
 
-                moveState = MoveState.Patrol;
+                moveState = MoveState.Patrol; //swtiches move state to patrol state
             }
             yield return null;
         }
         NextState();
     }
 
-    public bool IsPlayerInRange()
+    public bool IsPlayerInRange() //checks if player is in range
     {
-        if (Vector3.Distance(transform.position, _player.transform.position) < 7f)
+        if (Vector3.Distance(transform.position, _player.transform.position) < 6f) //if the playe rposition is withing 6 units(?) of the enemy
         {
-            return true;
+            return true; //if true, return true
         }
         else
         {
-            return false;
+            return false; //if false, ...
         }
     }
 
-    public void ChasePlayer()
+    public void ChasePlayer()//chases the player
     {
-        if (IsPlayerInRange())
+        if (IsPlayerInRange())//if player is within range of enemy
         {
-            _agent.SetDestination(_player.transform.position);
+            _agent.SetDestination(_player.transform.position); //sets agent destination to player position
         }
     }
-
-    //void MovetoPoint(Vector3 point)
-    //{
-    //    Vector3 directionToPlayer = point - transform.position;
-
-    //    directionToPlayer.Normalize();
-    //    directionToPlayer *= _speed * Time.deltaTime;
-    //    transform.position += directionToPlayer;
-
-    //    if (directionToPlayer != Vector3.zero)
-    //    {
-    //        transform.forward = directionToPlayer;
-    //    }
-    //}
-    public void Search()
+    public void Search() //searches for closest waypoint to enemy agent
     {
         int closestIndex = -1;
         float closestDistance = float.MaxValue;
 
-        for (int index = 0; index < _waypoints.Length; index++)
+        for (int index = 0; index < _waypoints.Length; index++) //for every item in its waypoint array
         {
-            float currentDistance = Vector3.Distance(_waypoints[index].position, transform.position);
-            if (currentDistance < closestDistance)
+            float currentDistance = Vector3.Distance(_waypoints[index].position, transform.position); //checks for the distance between that waypoint and enemy position
+            if (currentDistance < closestDistance) //if that distance is smaller that the furthest possible distance
             {
-                closestDistance = currentDistance;
-                closestIndex = index;
+                closestDistance = currentDistance; //sets the current distance as the closest distance
+                closestIndex = index; //sets closest waypoint as new waypoint index
             }
         }
 
-        _waypointIndex = closestIndex;
+        _waypointIndex = closestIndex; //sets new waypoint index as index
     }
 }
