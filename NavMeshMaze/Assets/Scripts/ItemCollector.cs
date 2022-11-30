@@ -11,6 +11,8 @@ public class ItemCollector : MonoBehaviour
 
     public GameObject greenGate, blueGate, redGate, goldGate; //each of the color gates
 
+    GameManager game;
+
     private int coinsCollected = 0; //number of coins collected
 
     private void Start()
@@ -54,6 +56,13 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(other.gameObject);
             StartCoroutine(GameEnd()); //maze complete, closes game
+        }
+
+        if (other.gameObject.tag == "Robber")
+        {
+            game.ResetCoins();
+            coinsCollected = 0;
+            coinsText.text = $"Coins Collected: {coinsCollected}"; //updates display
         }
     }
 

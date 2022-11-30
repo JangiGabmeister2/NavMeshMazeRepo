@@ -9,12 +9,12 @@ public class EnemyAi : MonoBehaviour
 {
     [SerializeField] GameObject _player; //the player game object
     [SerializeField] Transform[] _waypoints; //an array of waypoints the ai will follow
+    [SerializeField] private Animator animator; //animator controller to activate movement and idle animations
+
     int _waypointIndex = 0; //which waypoint it is going to currently
     bool moving = false; //checks if agent is moving
 
     NavMeshAgent _agent; //the navmesh agent
-
-    [SerializeField] private Animator animator; //animator controller to activate movement and idle animations
 
     public MoveState moveState; //switches from patrolling and chasing states depending on player distance from enemy
 
@@ -28,14 +28,7 @@ public class EnemyAi : MonoBehaviour
 
     private void Update()
     {
-        if (moving) //if enemy is moving
-        {
-            animator.SetBool("isMoving", moving); //if true, switches to movement animation
-        }
-        else
-        {
-            animator.SetBool("isMoving", moving); //if false, switches to idle animation
-        }
+        animator.SetBool("isMoving", moving);
     }
 
     private void NextState() //switches movement states
@@ -66,7 +59,7 @@ public class EnemyAi : MonoBehaviour
             {
                 moving = false; //sets animation to idle
 
-                yield return new WaitForSeconds(1f); //waits a second
+                yield return new WaitForSeconds(1f); //waits a set amount of seconds
 
                 _waypointIndex++; //increases waypoint array index, which makes the agent move to next waypoint
             }

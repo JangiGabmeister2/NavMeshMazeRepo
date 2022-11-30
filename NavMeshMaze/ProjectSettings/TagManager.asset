@@ -12,6 +12,7 @@ TagManager:
   - RedKey
   - BlueKey
   - InfinityKey
+  - Robber
   layers:
   - Default
   - TransparentFX
