@@ -11,7 +11,7 @@ public class ItemCollector : MonoBehaviour
 
     public GameObject greenGate, blueGate, redGate, goldGate; //each of the color gates
 
-    GameManager game;
+    public GameObject[] coins;
 
     private int coinsCollected = 0; //number of coins collected
 
@@ -20,11 +20,22 @@ public class ItemCollector : MonoBehaviour
         coinsText.text = $"Coins Collected: {coinsCollected}"; //displays how many coins have been collected so far, game just started to count is 0
     }
 
+    public void ResetCoins()
+    {
+        for (int i = 0; i < coins.Length; i++)
+        {
+            coins[i].SetActive(true);
+        }
+
+        coinsCollected = 0;
+        coinsText.text = "Coins collected: 0";
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Coin") //if player collides with a coin
         {
-            Destroy(other.gameObject); //destroys the coin game object
+            other.gameObject.SetActive(false); //sets coin as inactive
             coinsCollected++; //increases the number coins collected by 1
             coinsText.text = $"Coins Collected: {coinsCollected}"; //updates display
 
@@ -56,13 +67,6 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(other.gameObject);
             StartCoroutine(GameEnd()); //maze complete, closes game
-        }
-
-        if (other.gameObject.tag == "Robber")
-        {
-            game.ResetCoins();
-            coinsCollected = 0;
-            coinsText.text = $"Coins Collected: {coinsCollected}"; //updates display
         }
     }
 

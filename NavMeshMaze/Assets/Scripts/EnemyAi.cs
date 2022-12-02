@@ -9,7 +9,12 @@ public class EnemyAi : MonoBehaviour
 {
     [SerializeField] GameObject _player; //the player game object
     [SerializeField] Transform[] _waypoints; //an array of waypoints the ai will follow
-    [SerializeField] private Animator animator; //animator controller to activate movement and idle animations
+    [SerializeField] Animator animator; //animator controller to activate movement and idle animations
+    [Range(0f,5f)]
+    [SerializeField] float waitSeconds = 1f; //the amount of seconds the ai will wait after reaching a waypoint, default 1 second
+    [Range(3f, 20f)]
+    [SerializeField] float searchRadius = 6f; //the radius at which the enemy searches the player in, if the player is within the radius, the ai will follow the player
+    [SerializeField] bool resetPosition; //resets position to first waypoint position after reaching player if true.
 
     int _waypointIndex = 0; //which waypoint it is going to currently
     bool moving = false; //checks if agent is moving
@@ -59,7 +64,7 @@ public class EnemyAi : MonoBehaviour
             {
                 moving = false; //sets animation to idle
 
-                yield return new WaitForSeconds(1f); //waits a set amount of seconds
+                yield return new WaitForSeconds(waitSeconds); //waits a set amount of seconds
 
                 _waypointIndex++; //increases waypoint array index, which makes the agent move to next waypoint
             }
@@ -107,8 +112,8 @@ public class EnemyAi : MonoBehaviour
 
     public bool IsPlayerInRange() //checks if player is in range
     {
-        if (Vector3.Distance(transform.position, _player.transform.position) < 6f) //if the playe rposition is withing 6 units(?) of the enemy
-        {
+        if (Vector3.Distance(transform.position, _player.transform.position) < searchRadius) //if the playe rposition is withing 6 units(?) of the enemy
+        {            
             return true; //if true, return true
         }
         else
@@ -124,6 +129,7 @@ public class EnemyAi : MonoBehaviour
             _agent.SetDestination(_player.transform.position); //sets agent destination to player position
         }
     }
+
     public void Search() //searches for closest waypoint to enemy agent
     {
         int closestIndex = -1;

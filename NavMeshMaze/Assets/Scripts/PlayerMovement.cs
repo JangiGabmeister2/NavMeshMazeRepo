@@ -7,12 +7,14 @@ using UnityEngine.AI;
 public class PlayerMovement : MonoBehaviour
 {
     NavMeshAgent _agent; //the navmesh agent
-    RaycastHit rayHit; 
+    RaycastHit rayHit;
+    ItemCollector collector;
 
     public Animator animator; //the animator controller which swtiches the animation from idle and running
 
     void Start()
     {
+        collector = GetComponent<ItemCollector>();
         animator = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
     }
@@ -48,6 +50,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.tag == "Enemy") //when the player collider collides with an enemy AI's collider
         {
             Die(); //player dies
+        }
+
+        if (other.gameObject.tag == "Robber")
+        {
+            collector.ResetCoins();
         }
     }
 

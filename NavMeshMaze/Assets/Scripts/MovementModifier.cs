@@ -9,7 +9,7 @@ public class MovementModifier : MonoBehaviour
     private float _speed = 8f; //the speed at which the agent moves
     private float _grassSpeed = 3f; //the speed at which the agent moves when walking through tall grass
 
-    public int filter; //displays filter to inspector, for testing purposes
+    int filter; 
 
     void Start()
     {
@@ -34,7 +34,5 @@ public class MovementModifier : MonoBehaviour
         {
             _agent.speed = _grassSpeed; //reduces speed by a lot ( do the math )
         }
-
-        //Debug.Log(hit.mask);
     }
 }
