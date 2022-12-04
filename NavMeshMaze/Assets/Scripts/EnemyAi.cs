@@ -33,7 +33,7 @@ public class EnemyAi : MonoBehaviour
 
     private void Update()
     {
-        animator.SetBool("isMoving", moving);
+        animator.SetBool("isMoving", moving); //swtiches the movement animation status according to 'moving' bool
     }
 
     private void NextState() //switches movement states

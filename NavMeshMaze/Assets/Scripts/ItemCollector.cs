@@ -11,7 +11,7 @@ public class ItemCollector : MonoBehaviour
 
     public GameObject greenGate, blueGate, redGate, goldGate; //each of the color gates
 
-    public GameObject[] coins;
+    public GameObject[] coins; //array of coin gameovjects, used to reset coins when player collides with robber ai
 
     private int coinsCollected = 0; //number of coins collected
 
@@ -20,7 +20,7 @@ public class ItemCollector : MonoBehaviour
         coinsText.text = $"Coins Collected: {coinsCollected}"; //displays how many coins have been collected so far, game just started to count is 0
     }
 
-    public void ResetCoins()
+    public void ResetCoins() //resets all coins that have been collected and resets collection number to 0
     {
         for (int i = 0; i < coins.Length; i++)
         {

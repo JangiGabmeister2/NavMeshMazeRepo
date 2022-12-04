@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - EnemyAi
+    - GameManager
     - ItemCollector
     - MovementModifier
     - MovingPlatform
@@ -107,45 +108,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 2826}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3084}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3748}
     - Class: 114
-      Script: {instanceID: 3944}
+      Script: {instanceID: 4122}
     - Class: 114
-      Script: {instanceID: 4286}
+      Script: {instanceID: 4464}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 5546}
+      Script: {instanceID: 5724}
     - Class: 114
-      Script: {instanceID: 5948}
+      Script: {instanceID: 6124}
     - Class: 114
-      Script: {instanceID: 6148}
+      Script: {instanceID: 6322}
     - Class: 114
-      Script: {instanceID: 6254}
+      Script: {instanceID: 6426}
     - Class: 114
-      Script: {instanceID: 6454}
+      Script: {instanceID: 6626}
     - Class: 114
-      Script: {instanceID: 6616}
+      Script: {instanceID: 6788}
     - Class: 114
-      Script: {instanceID: 6658}
-    - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 6830}
     - Class: 114
       Script: {instanceID: 7342}
     - Class: 114
-      Script: {instanceID: 8176}
+      Script: {instanceID: 7432}
     - Class: 114
-      Script: {instanceID: 8368}
+      Script: {instanceID: 7516}
+    - Class: 114
+      Script: {instanceID: 8350}
+    - Class: 114
+      Script: {instanceID: 8542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -527,7 +530,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDragMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3df780dade19de8a9ba207803773ca52
+      Hash: decd1a8bc56f36768cdc1a48455315c4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ItemCollector
@@ -1127,6 +1130,12 @@ ScriptsOnlyBuild:
     className: Entity
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1163,7 +1172,7 @@ ScriptsOnlyBuild:
     className: CinemachineImpulseSource
   - hash:
       serializedVersion: 2
-      Hash: 2492e481a7dee546763db2dc3cbf6599
+      Hash: 88e7fbdef2c85c4761f3af70d877c647
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyAi
@@ -1349,7 +1358,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 6764161005432266416fb57f068dc8c8
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MovementModifier
@@ -1488,4 +1497,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MazeGenerated.unity
-  playerPath: C:/Users/arjay.comabig1/Documents/GitHub/NavMeshMazeRepo/Build/NavMeshMaze.exe
+  playerPath: C:/Users/arjay/Desktop/UnityBuilds/NavMeshMaze.exe
